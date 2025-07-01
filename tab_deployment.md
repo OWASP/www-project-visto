@@ -6,7 +6,7 @@ order: 1
 tags: deployment-tag
 ---
 
-## :electric_plug: **Getting Started**
+## **Getting Started**
 
 <ins>Prerequisites</ins>
 - *Kali Linux* (preferred and tested during development testing)
@@ -94,7 +94,7 @@ http://127.0.0.1:5000
 http://127.0.0.1:5000
 ```
 
-## :computer: **Command Examples**
+## **Command Examples**
 
 i. Network Discovery
 
@@ -131,16 +131,16 @@ osint fqdn www.owasp.org tls_check
 ask_ai What is XSS? How to remediate?
 ```
 
-## :computer: **Screenshots**
+## **Screenshots**
 
 **`SC01. Screenshot of VISTO login page`**
-![Screenshot of VISTO login page](/assets/images/Login_sample.png)
+![Screenshot of VISTO login page](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Login_sample.png)
 
 **`SC02. Screenshot of VISTO Dashboard`**
-![Screenshot of VISTO Dashboard](/assets/images/Dashboard_sample.png)
+![Screenshot of VISTO Dashboard](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Dashboard_sample.png)
 
 **`SC03. Screenshot of VISTO project history (audit trail)`**
-![Screenshot of project history (audit trail)](/assets/images/Project_History_sample_view.png)
+![Screenshot of project history (https://github.com/OWASP/www-project-visto/blob/main/assets/images/Project_History_sample_view.png)
 
 **`SC04. Screenshot of VISTO LLM generated report`**
-![Screenshot of a sample LLM generated report](/assets/images/LLM_generated_sample_report.png)
+![Screenshot of a sample LLM generated report](https://github.com/OWASP/www-project-visto/blob/main/assets/images/LLM_generated_sample_report.png)
