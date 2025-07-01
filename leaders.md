@@ -1,2 +1,2 @@
 ### Leaders
-* [Henry Hon](mailto:henry.hon@owasp.org)
+* [Henry Hon](https://www.linkedin.com/in/henryhon/)
