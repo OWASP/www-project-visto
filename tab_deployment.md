@@ -49,9 +49,6 @@ pip install -r requirements.txt
 ```
 8. Set up config.py
 ```
-import os
-
-class Config:
     # Application-wide configuration settings.
     FLASK_SECRET_KEY = os.environ.get('FLASK_SECRET_KEY', 'your_super_secret_key_here_change_this_in_production_!!!')
     DATABASE_PATH = 'data/VISTO.db'
