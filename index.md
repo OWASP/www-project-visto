@@ -1,8 +1,8 @@
 ---
 
 layout: col-sidebar
-title: OWASP VISTO
-tags: example-tag
+title: OWASP VISTO (Vulnerability Intelligence & Security Testing Orchestrator)
+tags: deployment-tag
 level: 2
 type: code
 pitch: A very brief, one-line description of your project
