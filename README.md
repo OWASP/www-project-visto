@@ -1,6 +1,8 @@
 # VISTO (Vulnerability Intelligence & Security Testing Orchestrator) 
 <sup>AI-Powered Penetration Testing Agent</sup>
 
+![VISTO Logo](/assets/images/1280x640.png)
+
 **Objective and Vision**
 
 `VISTO` is a prototype AI-powered agent designed to empower penetration testing teams by streamlining initial reconnaissance, automating data collection, and providing insightful, actionable analysis. The core objective is to help pentest teams:
