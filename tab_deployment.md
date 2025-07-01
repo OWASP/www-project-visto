@@ -52,7 +52,7 @@ pip install -r requirements.txt
 import os
 
 class Config:
-    #Application-wide configuration settings.
+    # Application-wide configuration settings.
     FLASK_SECRET_KEY = os.environ.get('FLASK_SECRET_KEY', 'your_super_secret_key_here_change_this_in_production_!!!')
     DATABASE_PATH = 'data/VISTO.db'
     LOG_DIR = 'data/logs'
@@ -67,7 +67,7 @@ class Config:
     LLM_API_KEY = os.environ.get('LLM_API_KEY', 'your_llm_api_key_here_change_this_in_production_!!!')
     SHODAN_API_KEY = os.environ.get('SHODAN_API_KEY', 'your_shodan_api_key')
 
-    # --- Scanning Control ---
+    # Scanning Control
     ALLOW_EXTERNAL_SCANNING = True
     INTERNAL_IP_RANGES = [
         "127.0.0.0/8",      # Loopback
@@ -76,6 +76,7 @@ class Config:
         "192.168.0.0/16"    # Private C
         # Add any other internal IP ranges specific to your environment
     ]
+
 ```
 9. Running the Application (Use sudo to ensure Nmap can perform a full scan, as non-privileged users may have limited scanning capabilities.)
 ```
@@ -134,13 +135,13 @@ ask_ai What is XSS? How to remediate?
 ## **Screenshots**
 
 **`SC01. Screenshot of VISTO login page`**
-![Screenshot of VISTO login page](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Login_sample.png)
+![Screenshot of VISTO login page](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Login_sample.png?raw=true)
 
 **`SC02. Screenshot of VISTO Dashboard`**
-![Screenshot of VISTO Dashboard](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Dashboard_sample.png)
+![Screenshot of VISTO Dashboard](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Dashboard_sample.png?raw=true)
 
 **`SC03. Screenshot of VISTO project history (audit trail)`**
-![Screenshot of project history (https://github.com/OWASP/www-project-visto/blob/main/assets/images/Project_History_sample_view.png)
+![Screenshot of project history](https://github.com/OWASP/www-project-visto/blob/main/assets/images/Project_History_sample_view.png?raw=true)
 
 **`SC04. Screenshot of VISTO LLM generated report`**
-![Screenshot of a sample LLM generated report](https://github.com/OWASP/www-project-visto/blob/main/assets/images/LLM_generated_sample_report.png)
+![Screenshot of a sample LLM generated report](https://github.com/OWASP/www-project-visto/blob/main/assets/images/LLM_generated_sample_report.png?raw=true)
