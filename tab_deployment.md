@@ -50,7 +50,7 @@ pip install -r requirements.txt
 8. Set up config.py
 ```
     # Application-wide configuration settings.
-    FLASK_SECRET_KEY = os.environ.get('FLASK_SECRET_KEY', 'your_super_secret_key_here_change_this_in_production_!!!')
+    FLASK_SECRET_KEY = os.environ.get('FLASK_SECRET_KEY', 'your_super_secret_key_here_change_this_in_production_!')
     DATABASE_PATH = 'data/VISTO.db'
     LOG_DIR = 'data/logs'
     DATA_DIR = 'data'
@@ -61,7 +61,7 @@ pip install -r requirements.txt
     # LLM Configuration
     LLM_API_URL = os.environ.get('LLM_API_URL', 'http://localhost:11434/v1/chat/completions')
     LLM_MODEL_NAME = os.environ.get('LLM_MODEL_NAME', 'phi3')
-    LLM_API_KEY = os.environ.get('LLM_API_KEY', 'your_llm_api_key_here_change_this_in_production_!!!')
+    LLM_API_KEY = os.environ.get('LLM_API_KEY', 'your_llm_api_key_here_change_this_in_production_!')
     SHODAN_API_KEY = os.environ.get('SHODAN_API_KEY', 'your_shodan_api_key')
 
     # Scanning Control
